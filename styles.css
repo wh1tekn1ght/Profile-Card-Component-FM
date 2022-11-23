@@ -1,0 +1,109 @@
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+  --lg: 1.8rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+  background-color: var(--Dark-cyan);
+  background-position: right 50vw bottom 50vh, 50vw 50vh;
+  background-repeat: no-repeat, no-repeat;
+}
+
+ul {
+  list-style: none;
+  padding: 0 4rem;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: var(--lg);
+  color: var(--Dark-desaturated-blue);
+}
+
+.card {
+  width: 88%;
+  max-width: 360px;
+  display: grid;
+  grid-template-rows: 2fr 4fr;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-header {
+  height: 25vh;
+  max-height: 135px;
+  background-image: url('./images/bg-pattern-card.svg');
+}
+
+.card-info-section {
+  position: relative;
+}
+
+.card__profile-image {
+  position: absolute;
+  top: calc(-96px / 2);
+  left: calc(50% - 48px);
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.card-info-section {
+  padding-top: 4.8rem;
+}
+.info-title {
+  margin-top: 2.8rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+.info-title_gray {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: var(--Dark-grayish-blue);
+  font-weight: 400;
+}
+.info-location {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.4rem;
+  color: var(--Dark-grayish-blue);
+}
+
+.stats-section ul {
+  position: absolute;
+  bottom: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.stats-section li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stats-media .stats-media_smaller {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--Dark-grayish-blue);
+  letter-spacing: 0.2rem;
+}
+
