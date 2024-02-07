@@ -28,8 +28,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/nimrodcode/Profile-Card-Component-FM)
-- Live Site URL: [Live site URL here](https://nimrodcode.github.io/Profile-Card-Component-FM/)
+- Solution URL: [Solution URL here](https://github.com/whiteknight-dev/Profile-Card-Component-FM)
+- Live Site URL: [Live site URL here](https://whiteknight-dev.github.io/Profile-Card-Component-FM/)
 
 ## My process
 
@@ -61,6 +61,6 @@ I learned how to use the property background-position before this project I had 
 
 ## Author
 
-- Frontend Mentor - [@fermendoza18](https://www.frontendmentor.io/profile/fermendoza18)
+- Frontend Mentor - [@whiteknight-dev](https://www.frontendmentor.io/profile/whiteknight-dev)
 
 
